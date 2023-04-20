@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,400&display=swap");
+
+body {
+  background-image: url("../img/fondo2.avif");
+  background-position: center;
+  margin: auto;
+}
+.cabeza {
+  background-image: url("../img/cambio2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cabeza h1 {
+  text-align: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 0, 0, 80%);
+}
+.cabeza p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.cabeza {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.cabeza {
+  border: solid 5px;
+  color: rgba(0, 255, 255, 50%);
+}
+.productos table {
+  margin: auto;
+}
+.productos thead {
+  background-color: rgba(80, 251, 254, 0.403);
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.productos th {
+  border: 3px solid rgba(0, 0, 0, 0.537);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.productos {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+.productos h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.productos p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.productos td {
+  border: solid 3px;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.productos img {
+  background-position: center;
+  margin-left: 3rem;
+  height: 90%;
+  width: 50%;
+  border-radius: 3rem;
+}
+
+.footer {
+  background-color: blueviolet;
+  border: solid 2px black;
+  padding-bottom: 1rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.footer img {
+  margin-left: 40%;
+  width: 20%;
+  margin-top: 0.5rem;
+}
+.footer a {
+  margin-left: 44%;
+  margin-bottom: 10%;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+}
